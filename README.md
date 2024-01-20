@@ -81,5 +81,5 @@ Comments: XGBoost outperformed other models with a high accuracy of 0.78 on the 
 
 ## Conclusion
 
-Summarize the key findings from your results. In this project, we experimented with different machine learning models to classify patients with NPSLE, SLE, and controls based on MRI-derived features. XGBoost emerged as the top-performing model, achieving the highest accuracy and balanced metrics on the test set. Further analysis and fine-tuning may be required to improve classification performance, especially for Logistic Regression and Random Forest models.
+In this project, we experimented with different machine learning models to classify patients with NPSLE, SLE, and controls based on MRI-derived features. XGBoost emerged as the top-performing model, achieving the highest accuracy and balanced metrics on the test set. Further analysis and fine-tuning may be required to improve classification performance, especially for Logistic Regression and Random Forest models.
 
