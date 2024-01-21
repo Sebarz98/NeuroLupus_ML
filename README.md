@@ -9,21 +9,13 @@ This project aims to classify patients into three categories: NPSLE (Neuropsychi
 ### Machine Learning
 
 #### Logistic Regression
-Accuracy on Test Set: 0.6
-Confusion Matrix:
- [[0 2 0]
- [2 0 0]
- [0 0 6]]
-Classification Report:
+- Accuracy on Test Set: 0.6
+- Classification Report:
                precision    recall  f1-score   support
 
            0       0.00      0.00      0.00         2
            1       0.00      0.00      0.00         2
            2       1.00      1.00      1.00         6
-
-    accuracy                           0.60        10
-   macro avg       0.33      0.33      0.33        10
-weighted avg       0.60      0.60      0.60        10
 
 #### Support Vector Machine (SVM)
 - Average Cross-Validation Accuracy: 0.76
@@ -35,10 +27,6 @@ weighted avg       0.60      0.60      0.60        10
            1       0.50      0.50      0.50         2
            2       1.00      1.00      1.00         6
 
-    accuracy                           0.80        10
-   macro avg       0.67      0.67      0.67        10
-weighted avg       0.80      0.80      0.80        10
-
 #### Random Forest (RF)
 - Accuracy on Test Set: 0.9
 - Average Cross-Validation Accuracy: 0.75
@@ -48,10 +36,6 @@ weighted avg       0.80      0.80      0.80        10
            0       1.00      0.67      0.80         3
            1       0.75      1.00      0.86         3
            2       1.00      1.00      1.00         4
-
-    accuracy                           0.90        10
-   macro avg       0.92      0.89      0.89        10
-weighted avg       0.93      0.90      0.90        10
 
 #### XGBoost
 Accuracy: 0.67
@@ -77,11 +61,6 @@ Weighted F1-score: 0.63
            1       0.50      0.50      0.50         2
            2       0.67      1.00      0.80         4
 
-    accuracy                           0.67         9
-   macro avg       0.72      0.61      0.60         9
-weighted avg       0.74      0.67      0.63         9
-
-
 ### Ensemble Learning
 
 #### Voting Classifier
@@ -94,10 +73,6 @@ weighted avg       0.74      0.67      0.63         9
            1       0.50      0.50      0.50         2
            2       1.00      1.00      1.00         6
 
-    accuracy                           0.80        10
-   macro avg       0.67      0.67      0.67        10
-weighted avg       0.80      0.80      0.80        10
-
 #### Stacking Classifier 
 - Average Cross-Validation Accuracy: 0.67
 - Accuracy on Test Set: 0.6
@@ -108,10 +83,6 @@ weighted avg       0.80      0.80      0.80        10
            1       0.33      0.33      0.33         3
            2       1.00      1.00      1.00         4
 
-    accuracy                           0.60        10
-   macro avg       0.56      0.56      0.56        10
-weighted avg       0.60      0.60      0.60        10
-
 #### Extremely Randomized Trees 
 - Average Accuracy: 0.53
 - Classification Report:
@@ -121,9 +92,6 @@ weighted avg       0.60      0.60      0.60        10
            1       0.21      0.21      0.21        14
            2       1.00      1.00      1.00        20
 
-    accuracy                           0.53        47
-   macro avg       0.46      0.46      0.46        47
-weighted avg       0.53      0.53      0.53        47
 
 ## Conclusion
 
