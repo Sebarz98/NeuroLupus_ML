@@ -98,3 +98,18 @@ Weighted F1-score: 0.63
 In this project, we experimented with different machine learning models to classify patients with NPSLE, SLE, and controls based on MRI-derived features. Random Forest emerged as the top-performing model, achieving the highest accuracy and balanced metrics on the test set. Further analysis and fine-tuning may be required to improve classification performance, especially regarding the correct classification of NPSLE patients.
 On this note, we tried to deploy the SVM model to classifify NPSLE patients from HC, showing an accuracy of 100%. This further supports the findings of all the models, as they struggled to differentiate between SLE and NPSLE, but not between HC and the other groups.
 
+### Plots
+
+![Alt text](results/confusion.png)
+
+ Confusion matrix of RF Model.
+
+
+ ![Alt text](results/features.png)
+
+Most relevant features of RF Model.
+
+
+![Alt text](results/SVM.png)
+
+Different classes plotted on the first two PC of SVM.
